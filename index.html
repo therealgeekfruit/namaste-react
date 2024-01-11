@@ -6,6 +6,12 @@
     <title>Document</title>
   </head>
   <body>
-    <h3>Hello world!</h3>
+    <h3 id="root">Hello world!</h3>
+    <script>
+      const rootElement = document.querySelector("#root");
+      const helloWorldComponent = document.createElement("h2");
+      helloWorldComponent.innerText = "Hello World from Javascript!";
+      rootElement.appendChild(helloWorldComponent);
+    </script>
   </body>
 </html>
