@@ -6,12 +6,9 @@
     <title>Document</title>
   </head>
   <body>
-    <h3 id="root">Hello world!</h3>
-    <script>
-      const rootElement = document.querySelector("#root");
-      const helloWorldComponent = document.createElement("h2");
-      helloWorldComponent.innerText = "Hello World from Javascript!";
-      rootElement.appendChild(helloWorldComponent);
-    </script>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./index.js" />
   </body>
 </html>
